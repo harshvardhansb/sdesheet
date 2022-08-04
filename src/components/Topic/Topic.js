@@ -93,7 +93,7 @@ export default function Topic({ data, updateData }) {
 									fill='currentColor'
 									class={question.Bookmark === 1 ? 'bi bi-bookmark-fill' : 'bi bi-bookmark'}
 									viewBox='0 0 16 16'
-									style={{ float: 'right', color: 'green', cursor: 'pointer', paddingLeft: '1px' }}
+									style={{ float: 'right', color: 'red', cursor: 'pointer', paddingLeft: '1px' }}
 									onClick={() => handleBookmark(index, question)}
 								>
 									{question.Bookmark ? (
@@ -114,7 +114,7 @@ export default function Topic({ data, updateData }) {
 									fill='currentColor'
 									class={question.Notes && question.Notes.length !== 0 ? 'bi bi-sticky-fill' : 'bi bi-sticky'}
 									viewBox='0 0 16 16'
-									style={{ float: 'right', color: 'green', cursor: 'pointer' }}
+									style={{ float: 'right', color: 'red', cursor: 'pointer' }}
 									onClick={() => shownotes(index)}
 								>
 									{question.Notes && question.Notes.length !== 0 ? (
@@ -213,8 +213,8 @@ export default function Topic({ data, updateData }) {
 						/>
 						<InputGroup.Prepend>
 							<Badge
-								variant='success'
-								style={{ borderTopLeftRadius: '0px', borderBottomLeftRadius: '0px', background: 'rgb(200, 230, 201)' }}
+								variant='danger'
+								style={{ borderTopLeftRadius: '0px', borderBottomLeftRadius: '0px', background: '#ffaaa3' }}
 							>
 								<p className='completed-questions' style={{ color: 'black', padding: '8px' }}>
 									<span style={{ fontWeight: 'bold' }}>
@@ -232,7 +232,7 @@ export default function Topic({ data, updateData }) {
 							overlay={isBookmarkSortFilterSelected ? renderTooltipResetSortBookmark : renderTooltipSortBookmark}
 						>
 							<Button
-								variant={isBookmarkSortFilterSelected ? 'success' : 'outline-success'}
+								variant={isBookmarkSortFilterSelected ? 'danger' : 'outline-danger'}
 								className='sort-button'
 								onClick={() => {
 									Sorter(isBookmarkSortFilterSelected);
@@ -292,7 +292,7 @@ export default function Topic({ data, updateData }) {
 	const rowStyle = { fontSize: '20px' };
 	const selectRow = {
 		mode: 'checkbox',
-		style: { background: dark ? '#393E46' : '#c8e6c9', fontSize: '24px' },
+		style: { background: dark ? '#393E46' : '#e6d2c8' , fontSize: '24px' },
 		selected: select,
 		onSelect: handleSelect,
 		hideSelectAll: true,
@@ -447,13 +447,13 @@ export default function Topic({ data, updateData }) {
 	}
 	return (
 		<>
-			<h3 className='text-center mb-4'>
-				<Link to='/'>Topics</Link>/{topicName}
+			<h3 className='text-center mb-4 '>
+				<Link to='/' className='text-danger'>Topics</Link>/{topicName}
 			</h3>
 
 			{data === undefined ? (
 				<div className='d-flex justify-content-center'>
-					<Spinner animation='grow' variant='success' />
+					<Spinner animation='grow' variant='danger' />
 				</div>
 			) : (
 				<ToolkitProvider
@@ -493,7 +493,7 @@ function RandomButton({ data }) {
 		<Button
 			className='pick-random-btn'
 			onClick={pickRandomHandler}
-			variant='outline-primary'
+			variant='outline-danger'
 			href={data.questions[rnd].URL}
 			target='_blank'
 		>

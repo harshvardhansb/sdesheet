@@ -56,7 +56,7 @@ export default function TopicCard({ questionData }) {
                       <h4>
                         <Badge
                           pill
-                          variant="success"
+                          variant="danger"
                           className="float-right"
                           style={{ fontWeight: "500", cursor: "pointer" }}
                         >
@@ -74,7 +74,7 @@ export default function TopicCard({ questionData }) {
                   </p>
                   <ProgressBar
                     animated={percentDone === 100 ? false : true}
-                    variant="success"
+                    variant="danger"
                     now={percentDone}
                   />
                 </Card.Body>
@@ -110,7 +110,7 @@ export default function TopicCard({ questionData }) {
                       <h4>
                         <Badge
                           pill
-                          variant="primary"
+                          variant="secondary"
                           className="float-right"
                           style={{ fontWeight: "500", cursor: "pointer" }}
                         >
@@ -159,7 +159,7 @@ export default function TopicCard({ questionData }) {
                   ? false
                   : true
               }
-              variant="success"
+              variant="danger"
               now={((totalSolved / totalQuestions) * 100).toFixed(2)}
               style={{ margin: "0.2em 5em" }}
             />

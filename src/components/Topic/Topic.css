@@ -20,20 +20,20 @@
 
 /* Marked Complete */
 .Toastify__toast.toast-Done {
-	background: #ff7d21;
+	background: #444444;
 }
 
 .Toastify__toast.toast-Done .Toastify__progress-bar {
-	background: #ff9c4a;
+	background: #da0000;
 }
 
 /* Marked Incomplete */
 .Toastify__toast.toast-Incomplete {
-	background: #ff0000;
+	background: #444444;
 }
 
 .Toastify__toast.toast-Incomplete .Toastify__progress-bar {
-	background: #f6aaaa;
+	background: #da0000;
 }
 
 .sort-button {
@@ -69,7 +69,7 @@
 .note-section {
 	background: rgb(255, 255, 255);
 	display: none;
-	border: 2px solid #ae2727;
+	border: 2px solid #c42e2e;
 	border-radius: 5px;
 	position: relative;
 	margin-bottom: 0.5em;
@@ -129,18 +129,22 @@
 #tooltip-top > .tooltip-inner {
 	background-color: #fff;
 	color: rgb(171, 0, 0);
-	border: 1px solid #560606;
+	border: 1px solid #840808;
 }
 
 #tooltip-top > .tooltip-arrow {
-	border-top: 5px solid #560606;
+	border-top: 5px solid #930c0c;
 }
 .dark-table {
 	color: white;
 }
 
+.question-link{
+	color: rgb(225, 87, 87);
+}
+
 .question-link:hover {
-	color: rgb(207, 0, 0);
+	color: rgb(255, 147, 147);
 }
 .header-rand {
 	display: flex;
@@ -159,7 +163,7 @@
 }
 .random > a:hover {
 	color: white;
-	background-color: #861a1a;
+	background-color: #ff3c3c;
 }
 .pick-random-btn {
 	z-index: 0 !important; /*To Override z-index set by Bootstrap*/
