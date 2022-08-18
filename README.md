@@ -13,13 +13,15 @@
 - **Mobile first design ✌🏻**
 - **Clean UI ⚡**
 
-## What is 450-DSA Cracker 🤔
+## What is SDE-SHEET Cracker 🤔
 
-#### 450 DSA Cracker is a comprehensive list of 400 + topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
+#### SDE-SHEET is a comprehensive list of 180 + topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
 
-#### 450 DSA Cracker doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
+#### SDE-SHEET doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
 
-#### More details on how [450dsa] can help you -> [here].
+#### More details on how [sde-sheet] can help you -> [here].
+
+#### 
 
 ## Dependencies 🗃
 
@@ -37,33 +39,20 @@
 - Better Responsive CSS
 - Better State Management
 
-## Run Locally 💻
 
-```
-> Clone the repo
-    >> For Windows: Git Bash
-    >> For Linux: Terminal
-    >> git clone https://github.com/AsishRaju/450-DSA.git
-> Change the folder location to your source Code Folder
-    >> cd 450-DSA/src
-> Install the dependencies
-    >> npm install
-> Start the server
-    >> npm start
-> 450DSA runs on port 3000 of your Local Machine
-```
 
-[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/AsishRaju/450-DSA)
+[![OPEN-PR](https://img.shields.io/badge/Open%20For-PR-orange?style=for-the-badge&logo=github)](https://github.com/harshvardhansb/sedsheet)
 
 ## Credits 🙏🏻
 
-#### Curated list of question in [450dsa] is based on _[DSA Cracker Sheet]_ by [Love Babbar]
+#### Curated list of question in [sde-sheet] is based on _[Striver’s SDE Sheet]_ by [Raj Vikramaditya]
+#### The project is inspired from [Ashish-Raju]'s project on Love Babbar Sheet
 
-[here]: https://www.youtube.com/watch?v=4iFALQ1ACdA
-[450dsa]: https://450dsa.com/
-[love babbar]: https://www.linkedin.com/in/love-babbar-38ab2887/
-[dsa cracker sheet]: https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view
+[here]: https://bit.ly/linkedinYtLink
+[sde-sheet]: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
+[Raj Vikramaditya]: https://www.linkedin.com/in/rajarvp/
 [localbase]: https://github.com/dannyconnell/localbase
+[Ashish-Raju]: https://www.linkedin.com/in/rajarvp/
 [react-reveal]: https://www.react-reveal.com/
 [bootstrap]: https://react-bootstrap.github.io/
 [react]: https://reactjs.org/

@@ -14,7 +14,7 @@ export default function Footer({ dark, setDark }) {
 									<span role="img" aria-label="star" className="emojiFix">
 										⭐
 									</span>{" "}
-									This project
+									This Project
 								</Badge>
 							</h4>
 						</a>

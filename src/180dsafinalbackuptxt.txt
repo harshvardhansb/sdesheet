@@ -5,54 +5,60 @@ export default [
 		started: false,
 		doneQuestions: 0,
 		questions: [
+
+			//array-1
 			{
 				Topic: 'Array',
-				Problem: 'Reverse the array',
+				Problem: 'Set Matrix Zeroes',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/reverse-an-array/0',
+				URL: 'https://leetcode.com/problems/set-matrix-zeroes/',
+				SOL : 'https://www.youtube.com/watch?v=M65xBewcqcI&list=PLgUwDviBIf0rPG3Ictpu74YWBQ1CaBkm2&index=8&ab_channel=takeUforward',
 			},
 			{
 				Topic: 'Array',
-				Problem: 'Find the maximum and minimum element in an array',
+				Problem: 'Pascal"s Triangle',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/find-minimum-and-maximum-element-in-an-array4428/1',
+				URL: 'https://leetcode.com/problems/pascals-triangle/',
 			},
 			{
 				Topic: 'Array',
-				Problem: 'Find the "Kth" max and min element of an array ',
+				Problem: 'Next Permutation ',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/kth-smallest-element/0',
+				URL: 'https://leetcode.com/problems/next-permutation/',
 			},
 			{
 				Topic: 'Array',
-				Problem: 'Given an array which consists of only 0, 1 and 2. Sort the array without using any sorting algo',
+				Problem: '	Kadane"s Algorithm',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/sort-an-array-of-0s-1s-and-2s/0',
+				URL: 'https://leetcode.com/problems/maximum-subarray/',
 			},
 			{
 				Topic: 'Array',
-				Problem: 'Move all the negative elements to one side of the array ',
+				Problem: 'Sort an array of 0s 1s & 2s.',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/move-all-negative-elements-to-end1813/1',
+				URL: 'https://leetcode.com/problems/sort-colors/',
 			},
 			{
 				Topic: 'Array',
-				Problem: 'Find the Union and Intersection of the two sorted arrays.',
+				Problem: 'Stock buy and Sell',
 				Done: false,
 				Bookmark: false,
 				Notes: '',
-				URL: 'https://practice.geeksforgeeks.org/problems/union-of-two-arrays/0',
+				URL: 'https://leetcode.com/problems/best-time-to-buy-and-sell-stock/',
 			},
+
+			//array-2
+
 			{
 				Topic: 'Array',
 				Problem: 'Write a program to cyclically rotate an array by one.',

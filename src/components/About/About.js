@@ -31,8 +31,8 @@ export default function About({ resetData, exportData, importData }) {
 							<Alert.Heading className="text-center">About</Alert.Heading>
 							<hr />
 							<h4 className="text-center">
-								180 DSA Cracker helps you build your confidence in solving any coding <br /> related question and helps you
-								prepare for your placements{" "}
+							SDE Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures ans Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies 
+							like Amazon, Microsoft, Media.net, Flipkart, etc, and cover almost all of the concepts related to Data Structure ans Algorithms.{" "}
 								<span role="img" aria-label="student">
 									👨🏻‍🎓
 								</span>
@@ -48,7 +48,7 @@ export default function About({ resetData, exportData, importData }) {
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									DSA Cracker Sheet
+									Striver's SDE-Sheet
 								</a>
 							</i>{" "}
 							by{" "}

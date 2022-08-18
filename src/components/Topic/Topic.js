@@ -67,21 +67,21 @@ export default function Topic({ data, updateData }) {
 						</div>
 					),
 					controls: (
-						<div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
-							<img
-								src={
-									question.URL.includes('geeksforgeeks')
-										? 'https://img.icons8.com/color/24/000000/GeeksforGeeks.png'
-										: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/24/000000/external-level-up-your-coding-skills-and-quickly-land-a-job-logo-color-tal-revivo.png'
-								}
-								width='30px'
-								height='25px'
-								alt='icon'
-								style={{ float: 'right', cursor: 'pointer' }}
-								onClick={() => {
-									window.open(question.URL, '_blank');
-								}}
-							/>
+											<div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
+												<img
+													src={
+														question.URL.includes('geeksforgeeks')
+															? 'https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png'
+															: 'https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png'
+													}
+													width='30px'
+													height='20px'
+													alt='icon'
+													style={{ float: 'right', cursor: 'pointer' }}
+													onClick={() => {
+														window.open(question.SOL, '_blank'); //changed URL with SOL to add striver's youtube solutions 
+													}}
+												/>
 							<OverlayTrigger
 								placement='left'
 								overlay={!question.Bookmark ? renderTooltipAddBookmark : renderTooltipRemoveBookmark}

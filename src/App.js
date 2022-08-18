@@ -89,7 +89,7 @@ function App() {
 		<Router>
 			<div className={dark ? 'App dark' : 'App'}>
 				<h1 className='app-heading text-center mt-5' style={{ color: dark ? 'white' : '' }}>
-					180 DSA Cracker
+					Striver’s DSA Cracker 
 				</h1>
 
 				{questionData.length === 0 ? (
@@ -116,20 +116,20 @@ function App() {
 
 							{/* TOPIC ROUTE */}
 							<Route path='/array' children={<Topic data={questionData[0]} updateData={updateData} />} />
-							<Route path='/matrix' children={<Topic data={questionData[1]} updateData={updateData} />} />
-							<Route path='/string' children={<Topic data={questionData[2]} updateData={updateData} />} />
-							<Route path='/search_sort' children={<Topic data={questionData[3]} updateData={updateData} />} />
-							<Route path='/linked_list' children={<Topic data={questionData[4]} updateData={updateData} />} />
-							<Route path='/binary_trees' children={<Topic data={questionData[5]} updateData={updateData} />} />
-							<Route path='/bst' children={<Topic data={questionData[6]} updateData={updateData} />} />
-							<Route path='/greedy' children={<Topic data={questionData[7]} updateData={updateData} />} />
-							<Route path='/backtracking' children={<Topic data={questionData[8]} updateData={updateData} />} />
-							<Route path='/stacks_queues' children={<Topic data={questionData[9]} updateData={updateData} />} />
-							<Route path='/heap' children={<Topic data={questionData[10]} updateData={updateData} />} />
-							<Route path='/graph' children={<Topic data={questionData[11]} updateData={updateData} />} />
-							<Route path='/trie' children={<Topic data={questionData[12]} updateData={updateData} />} />
-							<Route path='/dynamic_programming' children={<Topic data={questionData[13]} updateData={updateData} />} />
-							<Route path='/bit_manipulation' children={<Topic data={questionData[14]} updateData={updateData} />} />
+							{/* <Route path='/matrix' children={<Topic data={questionData[1]} updateData={updateData} />} /> */}
+							<Route path='/string' children={<Topic data={questionData[1]} updateData={updateData} />} />
+							<Route path='/search_sort' children={<Topic data={questionData[2]} updateData={updateData} />} />
+							<Route path='/linked_list' children={<Topic data={questionData[3]} updateData={updateData} />} />
+							<Route path='/binary_trees' children={<Topic data={questionData[4]} updateData={updateData} />} />
+							<Route path='/bst' children={<Topic data={questionData[5]} updateData={updateData} />} />
+							<Route path='/greedy' children={<Topic data={questionData[6]} updateData={updateData} />} />
+							<Route path='/backtracking' children={<Topic data={questionData[7]} updateData={updateData} />} />
+							<Route path='/stacks_queues' children={<Topic data={questionData[8]} updateData={updateData} />} />
+							<Route path='/heap' children={<Topic data={questionData[9]} updateData={updateData} />} />
+							<Route path='/graph' children={<Topic data={questionData[10]} updateData={updateData} />} />
+							<Route path='/trie' children={<Topic data={questionData[11]} updateData={updateData} />} />
+							<Route path='/dynamic_programming' children={<Topic data={questionData[12]} updateData={updateData} />} />
+							{/* <Route path='/bit_manipulation' children={<Topic data={questionData[14]} updateData={updateData} />} /> */}
 						</ThemeContext.Provider>
 					</>
 				)}
