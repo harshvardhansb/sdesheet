@@ -15,13 +15,17 @@
 
 ## What is SDE-SHEET Cracker 🤔
 
-#### SDE-SHEET is a comprehensive list of 180 + topic wise questions to build your confidence in data structure and algorithms and prepare yourself for placements.
+#### SDE Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures & Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies like Amazon, Microsoft, Media.net, Flipkart, etc, and cover almost all of the concepts related to Data Structure & Algorithms.
 
 #### SDE-SHEET doesn't guarantee a job but guarantees your confidence in solving any coding problem if done in the right way 👍🏻.
 
 #### More details on how [sde-sheet] can help you -> [here].
 
 #### 
+
+## Why trust the Striver SDE sheet ⁉️
+
+#### This is sheet is prepared by Raj Vikramaditya A.K.A Striver, Candidate Master, 6*, who has bagged offers from Google Warsaw, Facebook London, Media.net(Directi). #### He has also interned at Amazon India. He is also one of the top educators at Unacademy and was at GeeksforGeeks as well. Not only this, hundreds of students cleared interviews of top companies with the help of this sheet. What are you waiting for?
 
 ## Dependencies 🗃
 
