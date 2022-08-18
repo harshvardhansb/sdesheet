@@ -52,7 +52,7 @@
 [sde-sheet]: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
 [Raj Vikramaditya]: https://www.linkedin.com/in/rajarvp/
 [localbase]: https://github.com/dannyconnell/localbase
-[Ashish-Raju]: https://www.linkedin.com/in/rajarvp/
+[Ashish-Raju]: https://www.linkedin.com/in/asishraju/
 [react-reveal]: https://www.react-reveal.com/
 [bootstrap]: https://react-bootstrap.github.io/
 [react]: https://reactjs.org/
