@@ -95,7 +95,7 @@ function App() {
 				{questionData.length === 0 ? (
 					// load spinner until data is fetched from DB
 					<div className='d-flex justify-content-center'>
-						<Spinner animation='grow' variant='success' />
+						<Spinner animation='grow' variant='danger' />
 					</div>
 				) : (
 					<>
@@ -116,7 +116,6 @@ function App() {
 
 							{/* TOPIC ROUTE */}
 							<Route path='/array' children={<Topic data={questionData[0]} updateData={updateData} />} />
-							{/* <Route path='/matrix' children={<Topic data={questionData[1]} updateData={updateData} />} /> */}
 							<Route path='/string' children={<Topic data={questionData[1]} updateData={updateData} />} />
 							<Route path='/search_sort' children={<Topic data={questionData[2]} updateData={updateData} />} />
 							<Route path='/linked_list' children={<Topic data={questionData[3]} updateData={updateData} />} />
@@ -129,7 +128,7 @@ function App() {
 							<Route path='/graph' children={<Topic data={questionData[10]} updateData={updateData} />} />
 							<Route path='/trie' children={<Topic data={questionData[11]} updateData={updateData} />} />
 							<Route path='/dynamic_programming' children={<Topic data={questionData[12]} updateData={updateData} />} />
-							{/* <Route path='/bit_manipulation' children={<Topic data={questionData[14]} updateData={updateData} />} /> */}
+							
 						</ThemeContext.Provider>
 					</>
 				)}
