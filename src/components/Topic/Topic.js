@@ -15,7 +15,7 @@ import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import './Topic.css';
 import { ThemeContext } from '../../App';
 import Button from 'react-bootstrap/Button';
-
+import logo from './ytlogo.png'; 
 export default function Topic({ data, updateData }) {
 	/*
     This component takes data releted to a paticular topic
@@ -70,7 +70,7 @@ export default function Topic({ data, updateData }) {
 											<div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
 												<img
 													src={
-														'https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_960_720.png'
+														logo
 													}
 													width='30px'
 													height='20px'
