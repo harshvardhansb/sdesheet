@@ -27,10 +27,10 @@ export default function About({ resetData, exportData, importData }) {
 			<div className="container-custom">
 				<Fade duration={500}>
 					<div className="container my-5">
-						<Alert variant="success">
+						<Alert variant="danger">
 							<Alert.Heading className="text-center">About</Alert.Heading>
 							<hr />
-							<h4 className="text-center">
+							<h4 className="text-center" style={{color: "rgb(255, 25, 25)"}}>
 							SDE Sheet contains very handily crafted and picked top coding interview questions from different topics of Data Structures ans Algorithms. These questions are one of the most asked coding interview questions in coding interviews of companies 
 							like Amazon, Microsoft, Media.net, Flipkart, etc, and cover almost all of the concepts related to Data Structure ans Algorithms.{" "}
 								<span role="img" aria-label="student">
