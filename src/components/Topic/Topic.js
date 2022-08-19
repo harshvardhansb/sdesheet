@@ -70,9 +70,7 @@ export default function Topic({ data, updateData }) {
 											<div style={{ display: 'flex', justifyContent: 'space-evenly', alignItems: 'center' }}>
 												<img
 													src={
-														question.URL.includes('geeksforgeeks')
-															? 'https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png'
-															: 'https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png'
+														'https://cdn.pixabay.com/photo/2016/07/03/18/36/youtube-1495277_960_720.png'
 													}
 													width='30px'
 													height='20px'
