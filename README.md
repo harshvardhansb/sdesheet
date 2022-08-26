@@ -10,7 +10,7 @@
 - **Topic wise question search 🔍**
 - **Topic wise progress 🧐**
 - **Complete local storage 📂**
-- **Mobile first design ✌🏻**
+- **Desktop first design ✌🏻**
 - **Clean UI ⚡**
 
 ## What is SDE-SHEET Cracker 🤔
