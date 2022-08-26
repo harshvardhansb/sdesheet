@@ -35,13 +35,7 @@
 - [React-Table-2] - **Suite of table hooks**
 - [LocalBase] - **Firebase style DB for offline storage**
 
-## WIP 🛠
 
-- ~Dark Mode~
-- Add `mark for review\fav` feature
-- Leader Board
-- Better Responsive CSS
-- Better State Management
 
 
 
