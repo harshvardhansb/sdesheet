@@ -25,7 +25,9 @@
 
 ## Why trust the Striver SDE sheet ⁉️
 
-#### This is sheet is prepared by Raj Vikramaditya A.K.A Striver, Candidate Master, 6*, who has bagged offers from Google Warsaw, Facebook London, Media.net(Directi). #### He has also interned at Amazon India. He is also one of the top educators at Unacademy and was at GeeksforGeeks as well. Not only this, hundreds of students cleared interviews of top companies with the help of this sheet. What are you waiting for?
+#### This is sheet is prepared by Raj Vikramaditya A.K.A Striver, Candidate Master, 6*, who has bagged offers from Google Warsaw, Facebook London, Media.net(Directi).
+
+#### He has also interned at Amazon India. He is also one of the top educators at Unacademy and was at GeeksforGeeks as well. Not only this, hundreds of students cleared interviews of top companies with the help of this sheet. What are you waiting for?
 
 ## Dependencies 🗃
 
