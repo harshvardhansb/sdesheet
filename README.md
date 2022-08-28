@@ -21,7 +21,7 @@
 
 #### More details on how [sde-sheet] can help you -> [here].
 
-#### 
+
 
 ## Why trust the Striver SDE sheet ⁉️
 
