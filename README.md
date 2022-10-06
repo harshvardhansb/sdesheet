@@ -46,7 +46,7 @@
 ## Credits 🙏🏻
 
 #### Curated list of question in [sde-sheet] is based on _[Striver’s SDE Sheet]_ by [Raj Vikramaditya]
-#### The project is inspired from [Ashish-Raju]
+#### Inspired by [Ashish-Raju]
 
 [here]: https://youtu.be/WNtzUR_MwUQ
 [sde-sheet]: https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
